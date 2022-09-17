@@ -1,0 +1,259 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-17T13:39:08.253626+05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-17T13:39:17.283416+05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "JofFIj2lDQCV0a3dACe1Kg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Штуки, которые могут представлять собой данные или процедуры."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-17T13:39:32.561152+05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-17T13:42:08.822484+05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "T1l+Jz2lDQCV1MM8ACe1Kg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "В Лиспе выражения, обозначающие применение **функции** к **аргументам** называются **комбинациями (combinations)**. Самый левый элемент списка называется **оператором (operator)** и обозначает процедуру, а все остальные называются **операндами (operands)** и представляют собой аргументы для процедуры."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-09-17T13:44:55.935446+05:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-09-17T13:46:36.348401+05:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "e9SWOj2lDQCV2BO4ACe1Kg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "**ЕТ:** В Smalltalk можно попробовать создавать объекты, принимающие в конструктор список (коллекцию) любых других объектов. Тип создаваемого объекта описывает операцию, которая должна быть выполнена над элементами переданной коллекции."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-09-17T13:49:09.40943+05:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-09-17T13:49:51.26172+05:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "ZM/UST2lDQCV99XnACe1Kg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "**ЕТ:** Или же можно передавать отдельно объект-операнд (блок?) и отдельно - коллекцию операндов."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-09-17T13:50:28.267142+05:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-09-17T13:51:29.884716+05:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "DxGlTj2lDQCV+fA8ACe1Kg=="
+							},
+							"code" : "addition := Combination withOperator: [] andArguments: []."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-17T13:42:37.442615+05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-17T13:44:03.516782+05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "PcmNMj2lDQCV1nfJACe1Kg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "В Лиспе для записи выражений используется префиксная нотация, которая позволяет, во-первых, использовать списки аргументов произвольной длины, а во-вторых, \"вкладывать\" комбинации друг в друга, то есть использовать комбинации в качестве аргументов других комбинаций."
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-09-17T13:38:12.071773+05:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-09-17T13:38:12.071773+05:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Выражения"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "709cc322-3da5-0d00-95d0-fcdb0027b52a"
+	}
+}
