@@ -124,7 +124,42 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-09-17T13:50:28.267142+05:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-09-18T09:19:58.883942+05:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "DxGlTj2lDQCV+fA8ACe1Kg=="
+										},
+										"code" : "plusOperator := [:args | args inject: 0 into: [:sum :each | sum + each value]].\raddition := Combination withOperator: plusOperator andArguments: #(137 349).\raddition value"
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -158,7 +193,7 @@
 							"string" : "**ЕТ:** Или же можно передавать отдельно объект-операнд (блок?) и отдельно - коллекцию операндов."
 						},
 						{
-							"__type" : "pharoSnippet",
+							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
 								"items" : [ ]
@@ -171,7 +206,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-09-17T13:50:28.267142+05:00"
+									"dateAndTimeString" : "2022-09-18T09:34:50.052523+05:00"
 								}
 							},
 							"editEmail" : {
@@ -182,14 +217,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-09-17T13:51:29.884716+05:00"
+									"dateAndTimeString" : "2022-09-18T09:35:25.937993+05:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "DxGlTj2lDQCV+fA8ACe1Kg=="
+								"uidString" : "pj4D2k2lDQCFc/OPANOvUg=="
 							},
-							"code" : "addition := Combination withOperator: [] andArguments: []."
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Оба способа, конечно, куда менее читаемы, чем способ записи комбинаций в Лиспе, но в принципе выполняют ту же задачу."
 						}
 					]
 				},

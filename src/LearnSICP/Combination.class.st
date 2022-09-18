@@ -25,3 +25,8 @@ Combination >> arguments: aCollection [
 Combination >> operator: aProcedure [ 
 	operator := aProcedure
 ]
+
+{ #category : #accessing }
+Combination >> value [
+	^ operator value: arguments
+]
