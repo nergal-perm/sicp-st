@@ -1,0 +1,484 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T10:51:23.357025+05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T10:53:26.581387+05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "CPWu6E6lDQCjRm61CyDJEA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "В целом, интерпретация составной процедуры проходит по тому же правилу, что и для элементарных процедур, см. [[Вычисление комбинаций]]. Перед этим, правда, необходимо вычислить тело составной процедуры, заменив каждый формальный параметр соответствующим аргументом."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T10:54:30.979414+05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T10:55:28.959505+05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ArQm906lDQCj3BPLCyDJEA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Полученная в результате модель вычислений называется **подстановочной моделью**, т.к. на место каждого формального параметра подставляется конкретный аргумент, а вместо операторов, называющих составные процедуры, подставляются тела этих процедур."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T10:55:40.583672+05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T10:57:22.439965+05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "P7jJ+k6lDQCj3pRHCyDJEA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Подстановочная модель нужна для представления того, как применяются процедуры; для описания смысла этих операций. В реальности интерпретатор работает по-другому. К тому же эта модель является неполной и значительно упрощенной, поэтому впоследствии будет заменена на более сложную модель применения процедур."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T10:58:54.945181+05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T10:59:08.747533+05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "/8a9Bk+lDQCj4hqQCyDJEA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Аппликативный и нормальный порядки вычисления"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-09-18T11:01:32.704455+05:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-09-18T11:05:46.273369+05:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "oI9bEE+lDQCj9XR0CyDJEA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Подстановки:\n\n```text\n(f 5)\n(sum-of-squares (+ 5 1) (* 5 2))\n(+   square(+ 5 1))      square((* 5 2)))\n(+ (* (+ 5 1) (+ 5 1)) (* (* 5 2) (* 5 2)))\n```\t"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-09-18T11:04:20.422678+05:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-09-18T11:05:48.373915+05:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "TGMID0+lDQCj8C5ICyDJEA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Редукция:\n\n```text\n(+      (* 6 6)             (* 10 10)   )\n(+         36                   100     )\n136\n```\t"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T10:59:37.792048+05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T11:00:38.666017+05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "TprMB0+lDQCj5D9TCyDJEA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Нормальный порядок вычислений (normal-order evaluation) - вычисление, при котором сначала выполняются все подстановки, а затем происходит редукция выражения. Например:"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T11:06:18.994141+05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T11:07:49.183012+05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "CBGQHk+lDQCj+SZxCyDJEA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Нормальный порядок подстановки приводит к тому, что некоторые выражения возможно будут вычислены несколько раз, а это недостаточно эффективно. Отчасти поэтому интерпретатор Лиспа использует аппликативный порядок вычислений (applicative-order evaluation), при котором сначала вычисляются аргументы, а затем к ним применяется процедура."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T11:07:58.091837+05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T11:09:15.506546+05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "nsdJJ0+lDQCj/VnrCyDJEA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Для процедур, которые моделируются подстановочной моделью, оба порядка вычислений дают один и тот же результат. Для более сложных процедур становится слишком сложно обращаться с нормальным порядком вычислений, и это второй аргумент в пользу применения аппликативного порядка вычислений в интерпретаторе."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T11:01:04.813386+05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T11:01:04.813386+05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "snGyDk+lDQCj7v7ECyDJEA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T11:00:57.456173+05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T11:00:57.456173+05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "lC5CDk+lDQCj7J9uCyDJEA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T10:56:46.820923+05:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-18T10:56:46.820923+05:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "rcpR/06lDQCj4Et1CyDJEA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-09-18T10:50:26.921528+05:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-09-18T10:50:26.921528+05:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Подстановочная модель применения процедуры"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "71fbace8-4ea5-0d00-a345-21800b20c910"
+	}
+}
