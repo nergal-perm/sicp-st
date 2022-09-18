@@ -13,7 +13,156 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-09-17T13:37:51.078449+05:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-09-17T13:38:00.68983+05:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "+GsIIT2lDQCVzt6YACe1Kg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "1.1.1 [[Выражения]]"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-09-18T09:43:05.195847+05:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-09-18T09:43:17.214284+05:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "XxSt902lDQCA/4ObBo9kqg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "1.1.2 Имена и окружение"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-09-18T09:43:25.600828+05:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-09-18T09:44:23.984783+05:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "SU3q+E2lDQCBAFUaBo9kqg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "1.1.3 [[Вычисление комбинаций]]"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-09-18T10:01:45.761917+05:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-09-18T10:01:56.388396+05:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "pNh3Ok6lDQCB0apYBo9kqg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "1.1.4 [[Составные процедуры]]"
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -23,7 +172,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-09-17T13:37:51.078449+05:00"
+									"dateAndTimeString" : "2022-09-18T09:43:46.34798+05:00"
 								}
 							},
 							"editEmail" : {
@@ -34,17 +183,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-09-17T13:38:00.68983+05:00"
+									"dateAndTimeString" : "2022-09-18T09:43:54.480076+05:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "+GsIIT2lDQCVzt6YACe1Kg=="
+								"uidString" : "ecAm+k2lDQCBAVfHBo9kqg=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "1.1.1 [[Выражения]]"
+							"string" : "1.1 Элементы программирования"
 						}
 					]
 				},
@@ -67,7 +216,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-09-17T13:47:53.868776+05:00"
+						"dateAndTimeString" : "2022-09-18T09:47:36.585093+05:00"
 					}
 				},
 				"uid" : {
