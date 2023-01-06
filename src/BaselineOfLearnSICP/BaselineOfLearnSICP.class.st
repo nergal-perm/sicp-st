@@ -1,6 +1,9 @@
 Class {
 	#name : #BaselineOfLearnSICP,
 	#superclass : #BaselineOf,
+	#classVars : [
+		'PostLoaded'
+	],
 	#category : #BaselineOfLearnSICP
 }
 
@@ -17,5 +20,16 @@ BaselineOfLearnSICP class >> loadLepiter [
 { #category : #accessing }
 BaselineOfLearnSICP >> baseline: spec [
 	<baseline>
-	spec for: #common do: [ spec package: 'LearnSICP' ]
+	spec
+		for: #common
+		do: [ spec postLoadDoIt: #postLoadBaseline:.
+			spec package: 'LearnSICP' ]
+]
+
+{ #category : #accessing }
+BaselineOfLearnSICP >> postLoadBaseline: spec [
+	(PostLoaded isNotNil and: [ PostLoaded ]) ifTrue: [ ^ self ].
+	PostLoaded := true.
+
+	self class loadLepiter
 ]
