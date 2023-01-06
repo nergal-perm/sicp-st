@@ -23,7 +23,9 @@ BaselineOfLearnSICP >> baseline: spec [
 	spec
 		for: #common
 		do: [ spec postLoadDoIt: #postLoadBaseline:.
-			spec package: 'LearnSICP' ]
+			spec
+				package: 'LearnSICP' with: [ spec requires: #('LearnSICP-Core') ];
+				package: 'LearnSICP-Core' ]
 ]
 
 { #category : #accessing }

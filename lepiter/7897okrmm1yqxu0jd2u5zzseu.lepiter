@@ -1,0 +1,370 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T07:30:48.165012+03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T07:33:03.526592+03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "b8M6nPKtDQCHt9mUAbIceg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Пробую создать обобщенное представление функций, исходя из того, что собственно функция - это класс (т.е. его метод **value** будет определять алгоритм функции), комбинация - это экземпляр класса, а вычисление функции будет инициироваться отправкой экземпляру сообщения **value**. Вроде аналогия прослеживается и на первый взгляд не рушится, так что я приступаю к реализации."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T07:33:05.052053+03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T07:36:57.26362+03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4Zx6pvKtDQCHwkIkAbIceg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Исходя из прочитанного в **Software Design for Flexibility** я решил, что мне понадобится встраивать проверку на количество аргументов функции, чтобы иметь возможность их правильно составлять/compose в дальнейшем. Поэтому я решил создать иерархию классов, основанную на *Арности/Arity* функций."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T07:48:40.506049+03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T07:49:33.885011+03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "fHkYufKtDQCHx5QpAbIceg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Примером функции из этой иерархии может быть функция сложения (мультиарная, т.е. принимающая любое количество аргументов):"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T07:43:49.152456+03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T07:49:52.000551+03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "MR/vzPKtDQCHzTuEAbIceg=="
+				},
+				"code" : "add := SicpAddition withArguments: #(10 20 50).\radd value  \"80\""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T07:52:41.214945+03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T07:53:15.998039+03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "RSpP3/KtDQCH/g9HAbIceg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Используя классы из этой иерархии, я попробую переписать упражнения из книги [[Упражнения 1.1]]."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-06T08:00:24.224431+03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-06T08:02:42.882669+03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "DCd4APOtDQCIOXaUAbIceg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Решение \"в лоб\" - хард-код, при этом класс операции возведения в квадрат будет жестко на уровне кода зависеть от класса операции умножения. Вроде бы в этом ничего особо страшного нет, потому что эта связь в целом постоянна, это некоторое арифметическое ядро любой системы. Но для каких-то кастомных функций, которые реализуют бизнес-требования и потому могут меняться в любой момент, такое решение не подойдет."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-06T08:03:35.758828+03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-06T08:07:28.193004+03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Zwt2E/OtDQCIQRYrAbIceg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Второе решение - это обобщенное комбинирование функций. Общий ход заключается в том, что операция возведения в квадрат - это комбинация двух функций (обе будут переданы в конструктор в виде классов?): функция дублирования входного аргумента (т.е. преобразования его в массив из двух одинаковых аргументов) и мультиарная функция умножения, принимающая этот массив на вход."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T07:56:33.79448+03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T07:57:58.498737+03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "3oFN+vKtDQCIN0GvAbIceg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Есть, правда, ощущение, что простой иерархии классов будет недостаточно, потому что это всего лишь примитивы, из которых будут строиться более сложные выражения, а не средства собственно комбинирования. Например, если у меня есть класс для операции умножения, то как я могу выразить с его помощью операцию возведения в квадрат? "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T07:58:24.093753+03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T07:58:24.093753+03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "qqoVAfOtDQCIO+tnAbIceg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-01-06T07:30:11.915543+03:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-01-06T07:30:11.915543+03:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Обобщенное представление функций"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "9611399c-f2ad-0d00-87b6-c00a01b21c7a"
+	}
+}

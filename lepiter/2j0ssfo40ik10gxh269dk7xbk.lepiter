@@ -108,7 +108,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-09-17T13:46:36.348401+05:00"
+									"dateAndTimeString" : "2023-01-06T07:30:36.358924+03:00"
 								}
 							},
 							"uid" : {
@@ -118,7 +118,41 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "**ЕТ:** В Smalltalk можно попробовать создавать объекты, принимающие в конструктор список (коллекцию) любых других объектов. Тип создаваемого объекта описывает операцию, которая должна быть выполнена над элементами переданной коллекции."
+							"string" : "**ЕТ:** В Smalltalk можно попробовать создавать объекты, принимающие в конструктор список (коллекцию) любых других объектов. Тип создаваемого объекта описывает операцию, которая должна быть выполнена над элементами переданной коллекции. См. [[Обобщенное представление функций]] "
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-06T06:24:41.709265+03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-06T06:28:18.682296+03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "PeP2sfGtDQCEK+GOCauBFw=="
+							},
+							"code" : "add := SicpAdd arguments: #(137 149).\radd value"
 						},
 						{
 							"__type" : "textSnippet",
